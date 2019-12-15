@@ -1,6 +1,6 @@
 # TinyTales
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.2.
+This project is developed in angular.
 
 ## Development server
 
@@ -14,14 +14,13 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-## Running unit tests
+## About
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+This application accepts one input namely number 'N' and return the top N words and their frequency of occurrence in the frontend, in a tabular format.
+The N wont accept any negative number also not any character.
+If N is 0 then it will show text "Enter N to get the list of occurence of words" in the grid.
 
-## Running end-to-end tests
+## Libraries used
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+This application uses the following libraries
+1) HttpClient - To make request to node application

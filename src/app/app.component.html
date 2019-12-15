@@ -26,6 +26,9 @@
       <td>{{data.name}}</td>
       <td>{{data.total}}</td>
     </tr>
+    <tr *ngIf="responsedData.length == 0">
+      <td colspan="2" style="text-align: center">Enter N to get the list of occurence of words</td>
+    </tr>
 
   </table>
 </div>
